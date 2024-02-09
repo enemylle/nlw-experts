@@ -1,96 +1,97 @@
 //const cria uma variável nomeada perguntas e a araay[] armazena as variáveis em grupo e achave {} armazena os dados da variável como propriedade e valor ex. variável celular, propriedades cor, modelo, peso...
 const perguntas = [
   {
-    pergunta: "Qual é o prato típico brasileiro feito com feijão, carne seca, linguiça, bacon e outras carnes?",
+    pergunta: "Qual é o prato típico brasileiro feito com feijão preto, carne de porco e acompanhamentos como arroz, farofa e couve?",
     respostas: [
       "Acarajé",
-      "Moqueca",
       "Feijoada",
+      "Moqueca",
     ],
-    correta: 2
+    correta: 1
   },
   {
-    pergunta: "Qual é a fruta principal do doce brasileiro conhecido como 'brigadeiro'?",
+    pergunta: "Qual é o doce brasileiro feito com uma mistura de leite condensado, manteiga e chocolate em pó?",
     respostas: [
-      "Morango",
-      "Maracujá",
-      "Chocolate",
+      "Brigadeiro",
+      "Bolo de rolo",
+      "Beijinho",
     ],
-    correta: 3
+    correta: 0
   },
   {
-    pergunta: "Que tipo de carne é tradicionalmente usado no prato conhecido como 'churrasco'?",
+    pergunta: "Qual é o prato típico nordestino que leva carne de sol, queijo coalho, mandioca e manteiga de garrafa?",
     respostas: [
-      "Peixe",
-      "Frango",
-      "Carne bovina",
-    ],
-    correta: 3
-  },
-  {
-    pergunta: "Qual é o nome do prato típico brasileiro composto por camarão, leite de coco, azeite de dendê e outros temperos?",
-    respostas: [
-      "Coxinha",
-      "Vatapá",
+      "Pão de queijo",
+      "Baião de dois",
       "Escondidinho",
     ],
-    correta: 2
-  },
-  {
-    pergunta: "Que tipo de carne é comumente usado na feijoada brasileira?",
-    respostas: [
-      "Carne de porco",
-      "Carne de frango",
-      "Carne de cordeiro",
-    ],
     correta: 1
   },
   {
-    pergunta: "Qual é o principal ingrediente da 'paçoca' brasileira?",
-    respostas: [
-      "Amendoim",
-      "Coco",
-      "Abóbora",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é o nome do pão de queijo, uma comida típica de Minas Gerais?",
-    respostas: [
-      "Broa",
-      "Bolinho de chuva",
-      "Coxinha",
-    ],
-    correta: 3
-  },
-  {
-    pergunta: "Qual é o prato típico brasileiro feito com pedaços de frango, creme de mandioca e queijo coalho?",
+    pergunta: "Qual é o nome do tradicional prato nordestino composto por uma mistura de farinha de mandioca com água, sal e temperos, geralmente servido com carne de sol, queijo coalho e manteiga de garrafa?",
     respostas: [
       "Tapioca",
-      "Bobó de frango",
-      "Vaca atolada",
+      "Acarajé",
+      "Pirão",
     ],
     correta: 2
   },
   {
-    pergunta: "Qual é a bebida típica do Brasil feita da fermentação do suco de cana-de-açúcar?",
+    pergunta: "Qual é o doce típico do estado do Rio Grande do Sul, feito com ovos, açúcar e erva-mate?",
     respostas: [
-      "Cerveja",
-      "Vinho",
-      "Cachaça",
+      "Quindim",
+      "Pudim",
+      "Chimarrão",
     ],
-    correta: 3
+    correta: 2
   },
   {
-    pergunta: "Que prato típico brasileiro é feito com massa de farinha de mandioca e recheado com carne-seca, queijo coalho, ou outros ingredientes?",
+    pergunta: "Qual é o nome do prato típico do estado da Bahia, feito com massa de feijão-fradinho e recheado com camarão, vatapá, caruru, pimenta e outros ingredientes?",
     respostas: [
-      "Pastel",
-      "Empadão",
-      "Escondidinho",
+      "Feijoada",
+      "Vatapá",
+      "Acarajé",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o prato típico do estado de Minas Gerais, feito com feijão tropeiro, linguiça, bacon, ovos, farinha de mandioca e temperos?",
+    respostas: [
+      "Feijão preto",
+      "Feijoada",
+      "Feijão tropeiro",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o doce típico do estado do Pará, feito com uma mistura de tucupi, jambu, camarão, alho, cebola, pimenta e outros ingredientes?",
+    respostas: [
+      "Pavê",
+      "Pato no tucupi",
+      "Tacacá",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o prato típico brasileiro composto por peixe, leite de coco, azeite de dendê, tomate, pimentão e outros ingredientes?",
+    respostas: [
+      "Feijoada",
+      "Moqueca",
+      "Bacalhoada",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome da sobremesa típica do estado da Bahia, feita com massa de aipim, leite de coco, açúcar, ovos e outros ingredientes?",
+    respostas: [
+      "Cuscuz",
+      "Canjica",
+      "Pé de moleque",
     ],
     correta: 1
   },
 ];
+
 
 
 //const quiz seçeciona a div com o id quiz
